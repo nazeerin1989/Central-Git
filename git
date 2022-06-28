@@ -64,5 +64,8 @@ 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
 # git push -u origin master
 
 
-
+# git status
+# git add .
+# git commit -m "text message"
+# git push origin master
 
