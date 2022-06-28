@@ -1,0 +1,68 @@
+What is version control system?
+Version control allows you to keep track of your work and helps you to easily explore the changes you have made, be it data, coding scripts, notes, etc
+
+Different types of version control
+1) Local version control system : maintains a local copy on the laptop : if the file gets corrupted then there is no copy available.
+2) Centralized version control system  (CVCS) : maintains a local copy on remote servers. Access to internet is must. If the remote server crashes then there is no copy available
+3) Distributed version control system  (DVCS) : Maintains a local copy on local and remote server. 
+
+What is Git?
+Git is a distributed version control system. Git is an application which was invented by linux torvalds.
+Git operates on working space on local repository and then saves the files to storage services like Git Hub and GitLab
+
+What is git hub?
+Git hub is a provider of internet hosting for software development and version control using git. It offers the distributed version control and source code management funtionality of Git. It can be also called as central repository and central storage service.
+
+what is CVCS?
+Centralized version control system
+
+What is the Distributed Version control?
+In distributed version control system, every contributor has a local copy or "clone" if the main repository i.e everyone maintains a local repository of their own which contains all the files and metadata present in the main repository
+
+Stages of Git/ Workflow?
+LAB
+Install git app on your linux Instance.
+Create a direstory called Mumbai. 
+After creating the directory. Initialize the git on the directory by # git init it will create a git local repository. (This will create a .git hidden file inside the directory.
+Staging area.: You'll use git add command to move the file to stagin area.
+
+Repository?
+Repository is a place where you have all your codes or kind of folder on server
+It is a kind of folder related to one product
+changes are peronal to that particular repository
+
+Server?
+it stores all repositories
+it contains a metadata.... metadata is nothing but commit id and version id
+
+Working Directory?
+Where you see files physically and do modifications
+
+ip-172-31-33-205.us-east-2.compute.internal
+
+LAB
+sudo su -
+yum update
+yum install git -y
+git --version
+git config --global user.name "nazeer"
+git config --global user.email "nazeerin1989@gmail.com"
+
+git config -- list
+
+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
+
+# git init : it creates .git hidden file in the directory.
+
+# git remote add origin <add the URL>
+
+# git status
+# git commit -m "My first commit from mumbai"   : -m is for the message
+# git status
+# git add .
+# git log
+# git push -u origin master
+
+
+
+
